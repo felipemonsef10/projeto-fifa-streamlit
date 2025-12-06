@@ -4,7 +4,7 @@ import webbrowser
 
 
 if 'data' not in st.session_state:
-    df_data = pd.read_csv(r'datasets\CLEAN_FIFA23_official_data.csv', index_col=0)
+    df_data = pd.read_csv(r'datasets/CLEAN_FIFA23_official_data.csv', index_col=0)
     df_data = df_data.loc[df_data['Contract Valid Until'] > 2023]
     df_data = df_data.loc[df_data['Value(£)'] > 0]
     df_data = df_data.sort_values(by='Overall', ascending=False)
