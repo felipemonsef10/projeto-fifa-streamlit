@@ -2,6 +2,10 @@ import streamlit as st
 import pandas as pd
 import webbrowser
 
+st.set_page_config(
+    page_title='Overview',
+    layout='wide'
+)
 
 if 'data' not in st.session_state:
     df_data = pd.read_csv(r'datasets/CLEAN_FIFA23_official_data.csv', index_col=0)
