@@ -21,7 +21,7 @@ st.sidebar.markdown("Desenvolvido por Felipe Monsef")
 btn = st.link_button('Acesse os dados no Kaggle', 'https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data')
 
 st.markdown("""## Visão Geral
-O dataset contém informações abrangentes sobre jogadores de futebol profissional, cobrindo o período de 2017 a 2023.
+O dataset contém informações abrangentes sobre jogadores de futebol profissional, cobrindo o período de 2023.
 
 ## Características Principais
 - **Volume**: Mais de 17.000 registros
