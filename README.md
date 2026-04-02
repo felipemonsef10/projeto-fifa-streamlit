@@ -194,8 +194,4 @@ O projeto demonstra como o Streamlit permite transformar scripts de análise de 
 
 ---
 
-> ⚠️ **Aviso:** Este repositório não possui um arquivo `LICENSE` definido. Caso deseje disponibilizar o projeto como referência de estudo para outros desenvolvedores, considere adicionar uma licença **MIT**, que é a mais adequada para projetos educacionais de código aberto.
-
----
-
 _Desenvolvido por [felipemonsef10](https://github.com/felipemonsef10) · Projeto educacional — Asimov Academy_
